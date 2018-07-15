@@ -2,6 +2,8 @@
 
 ChickenKyiv API
 
+[DBShema](https://chickenkyiv.gitbook.io/documentation/database-schemes/chickenkyiv-schema)
+
 - [ ] Models
 - [ ] Relations
 - [ ] CRUD Methods for each model
@@ -21,6 +23,22 @@ ChickenKyiv API
 - [ ] Nutritions
 - [ ] Email
 - [ ] Recipe
+- [ ] Account
+```
+  /account/login
+	/account/logout
+	/account/update
+	/account/changePassword
+	/account/delete
+	/account/language
+	/account/signup
+
+	// todo
+	/account/verify
+	/account/recover
+	/account/recover/password
+	/account/changeEmail
+  ```
 
 #### Relations
 For example we'll review [Recipe Model schema](https://github.com/ChickenKyiv/recipe-api-only/blob/master/server/models/recipe.json)
@@ -44,9 +62,13 @@ like
 Here you can find few methods, related to sign up process. You should create set of constants, for each of this methods
 - [ ]
 
+https://chickenkyiv.gitbook.io/documentation/chickenkyiv-methods
 
 CK API
 https://github.com/ChickenKyiv/recipe-api-only/blob/master/RemoteMethods.md
+
+https://chickenkyiv.gitbook.io/documentation/chickenkyiv-free-menu-release
+
 
 ---
 Recipe Search
